@@ -14,8 +14,8 @@ export class SpaHostComponent implements OnInit {
   constructor(private service: SingleSpaService) {}
 
   ngOnInit() {
-    this.service.mount('app1', this.app1.nativeElement).subscribe();
-    this.service.mount('app2', this.app2.nativeElement).subscribe();
+    // this.service.mount('app1', this.app1.nativeElement).subscribe();
+    // this.service.mount('app2', this.app2.nativeElement).subscribe();
   }
 
   async ngOnDestroy() {

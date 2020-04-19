@@ -12,7 +12,7 @@ import { SpaHostComponent } from './spa-host/spa-host.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    // AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
